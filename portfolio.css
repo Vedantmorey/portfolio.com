@@ -1,0 +1,136 @@
+
+
+@media only screen and (min-width:412px){
+
+.header-section{
+  background-color:transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  height:45px;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  flex: 1;
+}
+
+body{
+  background-color: black;
+  margin-top: 60px;
+  height:1500px;
+  padding-top:100px;
+}
+
+.portfolio-profile{
+  height:75%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(0,0,0,0.30);
+  margin-right:180px;
+}
+.home-button{
+  margin-right:5px;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  background-color:transparent;
+  color: white;
+}
+
+.Skills-button{
+  margin-right:5px;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  background-color:transparent;
+}
+.about-button{
+  margin-right:5px;
+  padding: 5px;
+  border: none;
+  background-color:transparent;
+  border-radius: 8px;
+}
+.Contact-button{
+  margin-right:5px;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  background-color:transparent;
+  
+}
+
+.portfolio-pic{
+  height:400px;
+  width:400px;
+  border-radius: 10px;
+  margin-left: 40px;
+  border-style:solid;
+  border-color: burlywood;
+  margin-bottom:120px;
+ }
+.main-img{
+  height: 350px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+
+}
+.heading h1{
+  color: rgba(238, 233, 240, 0.8);
+  text-align: center;
+  font-family:Arial;
+  background-color: rgba(11, 12, 5, 0.20);
+  padding:10px;
+  margin-left: 5px;
+  margin-right:77px;
+}
+.button-text{
+  color:white;
+}
+.about-heading,.skills-heading{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 33px;
+  color:gold;
+  text-align: center;
+}
+.about-section-text{
+  color:whitesmoke;
+  font-size:20px;
+  margin-left:20px;
+  line-height: 35px;
+}
+.about-info{
+  height:400px;
+  width:320px;
+  background-color:rgb(0,0,0,0.20);
+  padding:55px;
+}
+
+.list{
+  color:white;
+  font-size: 22px;
+  margin-left:20px;
+  line-height:55px;
+}
+.quote{
+  color:lightpink;
+  font-size:19px;
+  margin-left: 30px;
+
+}
+.contact-list{
+  color:white;
+  line-height:30px;
+  height:40px;
+  text-decoration:none;
+}
+.text{
+  color:white;
+  font-size: 40px;
+  margin-left:20px;
+  text-decoration:none;
+}
+}
